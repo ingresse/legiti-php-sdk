@@ -1,5 +1,5 @@
 {
-    "name": "GIT_USER_ID/GIT_REPO_ID",
+    "name": "ingresse/legiti-php-sdk",
     "description": "",
     "keywords": [
         "swagger",
@@ -8,11 +8,11 @@
         "api"
     ],
     "homepage": "http://swagger.io",
-    "license": "proprietary",
+    "license": "MIT",
     "authors": [
         {
-            "name": "Swagger and contributors",
-            "homepage": "https://github.com/swagger-api/swagger-codegen"
+            "name": "Ingresse",
+            "homepage": "https://github.com/ingresse"
         }
     ],
     "require": {

@@ -13,23 +13,11 @@ PHP 5.5 and later
 ## Installation & Usage
 ### Composer
 
-To install the bindings via [Composer](http://getcomposer.org/), add the following to `composer.json`:
+To install the bindings via [Composer](http://getcomposer.org/):
 
 ```
-{
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/GIT_USER_ID/GIT_REPO_ID.git"
-    }
-  ],
-  "require": {
-    "GIT_USER_ID/GIT_REPO_ID": "*@dev"
-  }
-}
+composer require ingresse/legiti-php-sdk
 ```
-
-Then run `composer install`
 
 ### Manual Installation
 
@@ -63,7 +51,7 @@ $apiInstance = new Swagger\Client\Api\AuthApi(
     new GuzzleHttp\Client(),
     $config
 );
-$body = new \Swagger\Client\Model\Auth(); // \Swagger\Client\Model\Auth | 
+$body = new \Swagger\Client\Model\Auth(); // \Swagger\Client\Model\Auth |
 
 try {
     $result = $apiInstance->auth($body);
@@ -84,6 +72,7 @@ Class | Method | HTTP request | Description
 
 ## Documentation For Models
 
+ - [AccessError](docs/Model/AccessError.md)
  - [Auth](docs/Model/Auth.md)
  - [AuthorizationError](docs/Model/AuthorizationError.md)
  - [CollectionSuccess](docs/Model/CollectionSuccess.md)
